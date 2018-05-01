@@ -1,5 +1,6 @@
 package org.sid
 
 object Main extends App {
-  ReaderTest.runTest()
+  // ReaderTest.runTest()
+  WriterTest.runTest()
 }
