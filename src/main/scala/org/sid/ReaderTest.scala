@@ -35,9 +35,9 @@ object ReaderTest {
   } yield b
 
   def runTest() = {
-    println(plusInt(10).run("test"))
-    println(plusString("xxx").run("test"))
-    println(testReader.run("ha"))
-    println(testReader3.run("ha"))
+    println(plusInt(10).run("test"))  // 14
+    println(plusString("xxx").run("test"))  // 4xxx
+    println(testReader.run("ha")) // 11
+    println(testReader3.run("ha"))  // lalala ha
   }
 }
